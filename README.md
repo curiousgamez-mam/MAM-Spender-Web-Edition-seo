@@ -9,7 +9,6 @@
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/Plungis/MAM-Spender-Web-Edition/pkgs/container/mam-spender-web-edition)
 [![Releases](https://img.shields.io/badge/releases-v1.4.0-5fbf6a?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition/releases)
 [![MyAnonamouse](https://img.shields.io/badge/MyAnonamouse-MAM-9cff9c?style=for-the-badge&labelColor=0a1f12)](https://www.myanonamouse.net)
-[![By Plungis](https://img.shields.io/badge/original%20by-Plungis-ccffcc?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
 
 This is the **Web Edition of MAM Spender** — a self-hosted automation dashboard for the **MyAnonamouse (MAM)** private torrent tracker. It uses only the Python standard library, so there is **no `pip install` step**.
 
