@@ -1392,6 +1392,12 @@ class Handler(BaseHTTPRequestHandler):
         if self.path == "/":
             self.serve_file(STATIC_DIR / "index.html")
             return
+        if self.path == "/robots.txt":
+            self.serve_file(STATIC_DIR / "robots.txt")
+            return
+        if self.path == "/sitemap.xml":
+            self.serve_file(STATIC_DIR / "sitemap.xml")
+            return
         if self.path.startswith("/static/"):
             requested = self.path.removeprefix("/static/")
             self.serve_file(STATIC_DIR / requested)

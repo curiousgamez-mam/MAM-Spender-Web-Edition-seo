@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /static/app.js
+
+Sitemap: https://github.com/Plungis/MAM-Spender-Web-Edition/sitemap.xml

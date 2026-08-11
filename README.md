@@ -1,6 +1,19 @@
-# MAM Spender Web
+# MAM Spender Web Edition
 
-This is the Web Edition of MAM Spender. It uses only the Python standard library, so there is no `pip install` step.
+> Auto-purchase MyAnonamouse (MAM) upload credit, renew VIP, and buy Freeleech Wedges with your bonus points — from a self-hosted web dashboard. A Python standard-library port of **MAM Spender by Plungis**.
+
+[![Version](https://img.shields.io/badge/version-v1.4.0-39ff66?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+[![Language](https://img.shields.io/badge/python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![No Dependencies](https://img.shields.io/badge/dependencies-none-2f7e3a?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-82ff7e?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+[![License](https://img.shields.io/badge/license-view%20repo-5fbf6a?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+[![MyAnonamouse](https://img.shields.io/badge/MyAnonamouse-MAM-9cff9c?style=for-the-badge&labelColor=0a1f12)](https://www.myanonamouse.net)
+[![By Plungis](https://img.shields.io/badge/original%20by-Plungis-ccffcc?style=for-the-badge&labelColor=0a1f12)](https://github.com/Plungis/MAM-Spender-Web-Edition)
+
+This is the **Web Edition of MAM Spender** — a self-hosted automation dashboard for the **MyAnonamouse (MAM)** private torrent tracker. It uses only the Python standard library, so there is **no `pip install` step**.
+
+**Keywords:** MAM Spender, MyAnonamouse, MAM, MAM automation, upload credit, bonus points, freeleech wedges, VIP renewal, torrent ratio, private tracker, self-hosted, web edition, Plungis, Docker.
 
 Current Web Edition version: `v1.4.0`.
 
