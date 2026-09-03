@@ -298,7 +298,7 @@ class App:
         if settings.alternate_fl_upload:
             settings.fl_only = False
             settings.buy_upload_credit = True
-        if settings.theme not in {"green", "ember", "modern", "mouse"}:
+        if settings.theme not in {"green", "ember", "modern", "mouse", "ocean", "neon", "lavender", "amber", "forest", "crimson", "arctic", "midnight", "coral", "slate", "sunset", "mint", "plum", "gold", "cherry", "teal", "peach", "indigo", "rose"}:
             settings.theme = "green"
         settings.cookie_file_path = str(settings.cookie_file_path or "").strip()
         settings.plain_session_id = self.extract_mam_id(str(settings.plain_session_id or ""))
