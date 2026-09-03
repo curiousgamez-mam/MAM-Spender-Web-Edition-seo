@@ -464,8 +464,9 @@ function applyTheme(theme) {
   });
   const dropdown = $("themeDropdown");
   if (dropdown) dropdown.value = t;
-  const svgLink = document.querySelector('link[rel="icon"][type="image/svg+xml"]:not([media])');
-  if (svgLink) svgLink.href = `icon-${t}.svg`;
+  document.querySelectorAll('link[rel="icon"][type="image/svg+xml"]').forEach((link) => {
+    link.href = `/static/icon-${t}.svg`;
+  });
   const metaTheme = document.querySelector('meta[name="theme-color"]');
   if (metaTheme) {
     const colors = { green: "#39ff66", ember: "#ff5a2d", modern: "#2563eb", mouse: "#f5a3c7", ocean: "#0ea5e9", neon: "#d946ef", lavender: "#8b5cf6", amber: "#f59e0b", forest: "#22c55e", crimson: "#ef4444", arctic: "#22b8cf", midnight: "#7c3aed", coral: "#f472b6", slate: "#475569", sunset: "#f97316", mint: "#10b981", plum: "#a855f7", gold: "#d97706", cherry: "#f43f5e", teal: "#14b8a6", peach: "#fb7185", indigo: "#6366f1", rose: "#ec4899" };
