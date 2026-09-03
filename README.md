@@ -130,6 +130,13 @@ Docker notes:
 - Loads optional MAM bonus history from `/json/userBonusHistory.php`, keeps up to 500 returned entries, and paginates them locally.
 - Plots recorded spending events in the Graph tab with pie, bar, and timeline chart modes.
 - Tracks Freeleech Wedges bought with points and points spent on wedges.
+- **24 themes** with themed favicons that swap dynamically when the theme changes.
+- Dropdown "More Themes" picker for 20 additional themes below the 4 main buttons.
+- PWA manifest and apple-touch-icon for mobile home screen support.
+
+## Contributions
+
+- **Themes, favicons, and dropdown picker** — added by [curiousgamez](https://github.com/curiousgamez-mam)
 
 ## Mam Session_ID
 
